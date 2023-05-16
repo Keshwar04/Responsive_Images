@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+}
+.App {
+  height: 100vh;
+  background-color: #192841;
+}
+.container {
+  display: flex;
+  height: 60%;
+  width: 100%;
+  align-items: flex-end;
+  position: absolute;
+  bottom: 0;
+}
+.imgContainer {
+  height: 100%;
+  width: 20%;
+  margin: 0 1%;
+}
+.imgContainer h4 {
+  text-align: center;
+  color: white;
+}
+.imgContainer img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
